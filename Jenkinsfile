@@ -5,7 +5,8 @@ pipeline {
             steps {
                 script {
                     // Choisissez la commande en fonction de votre script
-                    sh 'python hello_world.py' // Pour Python
+                    echo "Hello CLI"
+                    // sh 'python hello_world.py' // Pour Python
                     // sh 'javac HelloWorld.java && java HelloWorld' // Pour Java
                 }
             }
