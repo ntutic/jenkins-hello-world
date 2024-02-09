@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('build') {
             steps {
                 script {
                     // Choisissez la commande en fonction de votre script
